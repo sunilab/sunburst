@@ -1,5 +1,5 @@
 server/
-server/static/bundle.js
+server/static/*.bundle.*
 !server/
 app/node_modules/**
 server/node_modules/**
