@@ -1,0 +1,23 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard that shows hierarchies and their state at a glance.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilab/sunburst.git"
+  },
+  "author": "Sunil Abhyankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilab/sunburst/issues"
+  },
+  "homepage": "https://github.com/sunilab/sunburst#readme"
+}
