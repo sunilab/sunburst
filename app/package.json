@@ -15,9 +15,14 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "path": "^0.12.7",
-    "webpack": "^3.11.0"
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
   },
   "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.prod.js",
+    "start": "./node_modules/.bin/webpack-dev-server --open --config webpack.dev.js",
     "test": "test"
   },
   "repository": {
